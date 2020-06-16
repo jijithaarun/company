@@ -13,7 +13,8 @@ import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
 import {TabModule} from 'angular-tabs-component';
 import { ProgramsComponent } from './programs/programs.component';
-import { WavesModule,CollapseModule } from 'ng-uikit-pro-standard'
+import { WavesModule,CollapseModule } from 'ng-uikit-pro-standard';
+import { ClientComponent } from './client/client.component'
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { WavesModule,CollapseModule } from 'ng-uikit-pro-standard'
     CardComponent,
     ServicesComponent,
     FooterComponent,
-    ProgramsComponent
+    ProgramsComponent,
+    ClientComponent
 
   ],
   imports: [
